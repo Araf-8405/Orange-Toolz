@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Test {
 
 	public static void main(String[] args) throws InterruptedException {
+		
 		WebDriver driver=LoginFunctionalityTest.getDriver();
 		
 				driver.get("http://159.89.38.11/login");
